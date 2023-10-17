@@ -3,6 +3,7 @@ import {
   backend,
   creator,
   web,
+  
   javascript,
   typescript,
   html,
@@ -45,18 +46,12 @@ const services = [
     title: "Web Developer",
     icon: web,
   },
-  {
-    title: "React Native Developer",
-    icon: mobile,
-  },
+ 
   {
     title: "Backend Developer",
     icon: backend,
   },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
+
 ];
 
 const technologies = [
@@ -108,63 +103,31 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
+
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Front-end Developer",
+    company_name: "HNG Internship X",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Sept 2023 - Oct 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "During my HNG Internship, I had the opportunity to work on a wide range of projects. These projects varied in complexity and scope, providing me with valuable hands-on experience in different aspects of software development.",
+      "Throughout the internship, I not only honed my technical skills but also developed strong teamwork abilities. Collaborating with colleagues on these diverse projects allowed me to learn from others and contribute effectively to the team's success.",
     ],
   },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  
   {
     title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    company_name: "FreeLancer",
+    icon: web,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "July 2023 - Aug 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "As a freelancer, I undertook the complete development of a full-stack application for an organization. This encompassed every phase of the project, from conceptualization to deployment.",
+      "I maintained a close and collaborative relationship with the client throughout the project. This client-centered approach allowed me to understand their specific needs and objectives, ensuring that the final solution was tailored to their requirements.",
     ],
   },
 ];
@@ -172,7 +135,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "I thought it was impossible to make a website as beautiful as our product, but Jason proved me wrong.",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
@@ -180,7 +143,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "I've never met a web developer who truly cares about their clients' success like Jason does.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -198,9 +161,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "E-commerce App",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Elevate your digital presence with Neuronmart, my professional e-commerce web development expertise.",
     tags: [
       {
         name: "react",
@@ -211,17 +174,17 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Nest.js",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Jasowills/Neuronmart",
   },
   {
-    name: "Job IT",
+    name: "Wayfarer",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Embark on an extraordinary journey with Wayfare's intuitive booking system. Discover unparalleled convenience in planning and reserving your dream trips.",
     tags: [
       {
         name: "react",
@@ -232,24 +195,24 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "nodejs",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://wayfarer-frontend.onrender.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Twittbook",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Enhance your online brand presence with Twittbook, the ultimate social media app. My expert social media management services curate captivating content, foster audience engagement, and drive meaningful interactions across platforms.",
     tags: [
       {
-        name: "nextjs",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Nest.js",
         color: "green-text-gradient",
       },
       {
