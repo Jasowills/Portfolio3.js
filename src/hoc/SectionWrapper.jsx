@@ -23,3 +23,6 @@ const StarWrapper = (Component, idName) =>
   };
 
 export default StarWrapper;
+
+
+// write a function that finds the longest word in a string
