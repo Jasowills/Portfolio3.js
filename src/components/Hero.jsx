@@ -1,9 +1,13 @@
 import { motion } from "framer-motion";
-
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
+// Import the ComputersCanvas component
+import ComputersCanvas from "./canvas/Computers";
 
 const Hero = () => {
+  // Check if the screen width is less than 768px (typical mobile device width)
+  const isMobile = window.innerWidth < 768;
+
+  // Render the Hero section
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
@@ -25,7 +29,8 @@ const Hero = () => {
         </div>
       </div>
 
-      <ComputersCanvas />
+      {/* Conditionally render the ComputersCanvas component based on the screen size */}
+      {!isMobile && <ComputersCanvas />}
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
