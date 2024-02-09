@@ -3,7 +3,10 @@ import {
   backend,
   creator,
   web,
-  
+  HNG,
+  one,
+  two,
+  three,
   javascript,
   typescript,
   html,
@@ -15,11 +18,7 @@ import {
   mongodb,
   git,
   figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  reactNative,
   carrent,
   jobit,
   tripguide,
@@ -43,13 +42,17 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Frontend-Developer",
     icon: web,
   },
  
   {
     title: "Backend Developer",
     icon: backend,
+  },
+  {
+    title: "Mobile Developer",
+    icon: mobile,
   },
 
 ];
@@ -103,6 +106,10 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
+  {
+    name: "React-native",
+    icon: reactNative
+  }
 
 ];
 
@@ -110,7 +117,7 @@ const experiences = [
   {
     title: "Front-end Developer",
     company_name: "HNG Internship X",
-    icon: tesla,
+    icon: HNG,
     iconBg: "#E6DEDD",
     date: "Sept 2023 - Oct 2023",
     points: [
@@ -136,26 +143,24 @@ const testimonials = [
   {
     testimonial:
       "I thought it was impossible to make a website as beautiful as our product, but Jason proved me wrong.",
-    name: "Sara Lee",
+    name: "Emmanuel Chibuike",
     designation: "CFO",
     company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Jason does.",
-    name: "Chris Brown",
+    name: "Mark Essien",
     designation: "COO",
     company: "DEF Corp",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+      "After Jason optimized our website, our traffic increased by 50%. We can't thank him enough!",
+    name: "Michael Wang",
     designation: "CTO",
     company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
@@ -178,7 +183,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: one,
     source_code_link: "https://github.com/Jasowills/Neuronmart",
   },
   {
@@ -199,8 +204,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://wayfarer-frontend.onrender.com/",
+    image: three,
+    source_code_link: "https://github.com/Jasowills/Wayfare-frontend",
   },
   {
     name: "Twittbook",
@@ -220,8 +225,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: two,
+    source_code_link: "https://github.com/Jasowills/Twittbook-frontend",
   },
 ];
 
