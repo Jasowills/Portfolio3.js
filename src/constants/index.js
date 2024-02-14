@@ -18,6 +18,7 @@ import {
   mongodb,
   git,
   figma,
+  dictionary,
   reactNative,
   carrent,
   jobit,
@@ -187,9 +188,9 @@ const projects = [
     source_code_link: "https://github.com/Jasowills/Neuronmart",
   },
   {
-    name: "Wayfarer",
+    name: "Neuron Dictionary Web app",
     description:
-      "Embark on an extraordinary journey with Wayfare's intuitive booking system. Discover unparalleled convenience in planning and reserving your dream trips.",
+      "Neuron Dictionary Web App is your go-to digital resource for comprehensive language reference and exploration. This sleek and user-friendly application is designed to provide users with quick and easy access to a vast database of words, phrases, and their meanings.",
     tags: [
       {
         name: "react",
@@ -204,8 +205,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: three,
-    source_code_link: "https://github.com/Jasowills/Wayfare-frontend",
+    image: dictionary,
+    source_code_link: "https://github.com/Jasowills/Dictionary",
   },
   {
     name: "Twittbook",
