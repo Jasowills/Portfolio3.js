@@ -35,6 +35,8 @@ import one from "../assets/1.png"
 import two from "../assets/2.png" 
 import three from "../assets/3.png" 
 import dictionary from "../assets/dictionary.png"
+import messenger from "../assets/messenger.png"
+
 
 export {
   logo,
@@ -50,6 +52,7 @@ export {
   two,
   three,
   css,
+  messenger,
   docker,
   figma,
   git,

@@ -5,6 +5,7 @@ import {
   web,
   HNG,
   one,
+  messenger,
   two,
   three,
   javascript,
@@ -209,25 +210,28 @@ const projects = [
     source_code_link: "https://github.com/Jasowills/Dictionary",
   },
   {
-    name: "Twittbook",
+    name: "Neuron messenger",
     description:
-      "Enhance your online brand presence with Twittbook, the ultimate social media app. My expert social media management services curate captivating content, foster audience engagement, and drive meaningful interactions across platforms.",
+      "NeuronMessenger: Streamlined communication, inspired by the brain. Connect instantly, share thoughts effortlessly, and engage in meaningful conversations with our innovative messenger app.",
     tags: [
       {
         name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "Nest.js",
+        name: "Node.js",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Tailwindcss",
+        color: "pink-text-gradient",
+      },{
+        name: "Websockets",
         color: "pink-text-gradient",
       },
     ],
-    image: two,
-    source_code_link: "https://github.com/Jasowills/Twittbook-frontend",
+    image: messenger,
+    source_code_link: "https://github.com/Jasowills/Neuron-messenger",
   },
 ];
 
